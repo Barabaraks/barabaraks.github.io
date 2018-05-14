@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="description" content="Jobseek - Job Board Responsive HTML Template">
+		
+		<title>Jobseek - Job Board Responsive HTML Template</title>
+		<link rel="shortcut icon" href="images/favicon.png">
+		<link href="css/other.css" rel="stylesheet">
+		<!-- Main Stylesheet -->
+		<link href="css/style.css" rel="stylesheet">
+		
+		<link href="css/option.css" rel="stylesheet">
+		<link href="css/other2.css" rel="stylesheet">
+		<!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<script src="js/respond.min.js"></script>
+		<![endif]-->
+
+	</head>
+	<body>
+
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-sm-8 col-md-6 col-sm-push-2 col-md-push-3">
+
+			<div class="jobs">
+							
+				<div class="featured applied">
+					<div class="row">
+						<div class="col-sm-4 col-xs-4">
+						<h5 class="pay">Jobwerk</h5>
+						</div>
+									
+						<div class="col-sm-3 col-sm-push-5 col-xs-4 col-xs-push-3">
+						<button type="button" class="btn btn-primary btn-block Nein log">Log out</button>
+						</div>
+					</div>
+									
+					<div class="row">
+						<div class=" key col-sm-12">
+						<h5 class="pay">Verify your email adress</h5>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="mail">
+						<img src="images/mail.png">
+						</div>
+						<div class="mail2">
+						<img src="images/mail.png">
+						</div>
+					</div>
+
+					<div class="row">	
+						<div class="col-sm-12 col-xs-12 text-center">
+						<p class="texx">We ve sent a 4-digit confirmation code to dron816@gmail.com</p>
+						<p class="texx">Enter it bolow to confirm your email address.</p>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-sm-5 col-xs-12 col-sm-push-1">
+						<p class="texx texx_2">Enter your confirm code:</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-11">
+						<form class="form-inline" role="form">
+						<div class="form-group tire">
+						<label class="sr-only" for="1f">ff</label>
+						<input type="text" class="form-control text_form" id="1f" size="1" class="sPerenos" name="Pole" onKeyUp="nextF(this)">
+						</div>
+						<div class="form-group tire">
+						<label class="sr-only" for="2f">gg</label>
+						<input type="text" class="form-control text_form" id="2f"  size="1" class="sPerenos" name="Pole2" onKeyUp="nextF(this)">
+						</div>
+						<div class="form-group tire">
+						<label class="sr-only" for="3f">gg</label>
+						<input type="text" class="form-control text_form" id="3f"  size="1" class="sPerenos" name="Pole3" onKeyUp="nextF(this)">
+						</div>
+						<div class="form-group">
+						<label class="sr-only" for="4f">gg</label>
+						<input type="text" class="form-control text_form" id="4f"  size="1" class="sPerenos" name="Pole4" onKeyUp="nextF(this)" maxlength="1">
+						</div>
+						<div class="row">
+						<div class="col-sm-12 col-xs-12 col-lg-12">
+						<p class="wrong">Wrong code</p>
+						</div>
+					</div>
+						</form>
+						
+						<div class="mail2">
+						<img src="images/mail.png">
+						</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-sm-4 col-sm-push-4">
+						<button type="button" class="btn btn-primary btn-block Ja Bild">OK</button>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+</div>
+<script>
+var defLen=1;
+ 
+function nextF(smth){
+ 
+if (smth.value.length<defLen) return;
+ 
+for (i=0;i<document.forms[0].elements.length-1;i++){
+    if (document.forms[0].elements[i].name==smth.name){
+        document.forms[0].elements[i+1].focus();
+        return;
+    }
+}
+}
+</script>
+
+	</body>
+</html>
